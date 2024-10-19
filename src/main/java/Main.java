@@ -115,5 +115,9 @@ public class Main implements NativeKeyListener, NativeMouseListener {
             type(sentanceSegmenter(input));
             doing = false;
         }
+
+        //todo make it so that the program can be exited with bind
+
+        //maybe editable or force wait time
     }
 }
